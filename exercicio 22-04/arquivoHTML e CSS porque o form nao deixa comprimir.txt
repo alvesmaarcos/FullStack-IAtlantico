@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Prática HTML</title>
+</head>
+<body>
+    <section>
+        <h1>Introdução</h1>
+        <p>Olá! Me chamo Marcos. Sou engenheiro de software em formação pela Universidade Federal do Ceará, e participante do programa Capacita Brasil de capacitação para desenvolvimento FullStack</p>
+    </section>
+    <section>
+        <hr>
+        <h1>Histórico</h1>
+        <ul>
+            <li> Graduação em Engenharia de Software: Universidade Federal do Ceará. 
+                <br/> <em>2024 - Atual</em>
+            </li>
+            <li>
+                Ensino médio integrado ao curso Técnico em Informática
+                <br><em>2021 - 2023</em>
+            </li>
+        </ul>
+        <h1>Certificados</h1>
+        <ul>
+            <li> Imersão Front-End - Alura 
+                <br/> <em>2025</em>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h1>Interesses</h1>
+        <h4>Profissionais</h4>
+        <ul>
+            <li>
+                Interesse em desenvolver software de qualidade, agindo tanto no <em>Front-End</em> quanto no <em>Back-End</em>
+            </li>
+            <li>
+                Desenvolver-me para a docência na área da Computação, capaz de passar conhecimento adiante da melhor forma possível.
+            </li>
+        </ul>
+
+        <h4>Pessoais</h4>
+        <ul>
+            <li>
+                Estabilizar-me e formar uma família, com o objetivo de seguir a vida da melhor forma: com leveza!
+            </li>
+        </ul>
+    </section>
+    <section>
+        <hr>
+        <h1>Contato</h1>
+        <p>Conecte-se comigo!</p>
+        <p><b>Contato:</b> +55 (99) 99999-9999</p>
+        <p><b>Endereço:</b> Rua Aquela Lá, Nº 1, Cidade Aquela Lá - Brasil</p>
+        <p><b>Whatsapp:</b> +55 (99) 99999-9999</p>
+    </section>
+
+    <section>
+        <h1>Redes Sociais</h1>
+        <p>Outras formas de me encontrar:</p>
+        <p>Acesse o meu <a href="https://github.com/">GitHub</a></p>
+        <p>Me siga no <a href="https://www.instagram.com/">Instagram</a></p>
+        <p>Conecte-se comigo: <a href=https://www.linkedin.com/feed/">Linkedin</a></p>
+    </section>
+</body>
+</html>
+
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    color: #212529;
+}
+
+h1 {
+    font-size: 28px;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 8px;
+}
+
+h4 {
+    font-size: 20px;
+    color: #495057;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+p {
+    font-size: 17px;
+    color: #495057;
+    text-align: center;
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+
+ul {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 12px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0a58ca;
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 32px auto;
+    width: 60%;
+}
+
