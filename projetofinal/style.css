@@ -8,12 +8,16 @@ body, h1, p {
 }
 #cabecalho ul {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     background-color: #333;
     list-style: none;
     max-width: none;
     margin: 0;
     padding: 0;
+}
+
+#cabecalho a {
+    margin-bottom: 0px;
 }
       
 #cabecalho li {
@@ -87,4 +91,61 @@ a {
 a:hover {
     color: #0a58ca;
     text-decoration: underline;
+}
+
+#whatsapp {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#whatsapp img {
+    height: 60px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+#whatsapp img:hover {
+    transform: scale(1.1);
+}
+
+.skill {
+    display: flex;
+    align-items: side;
+    margin-bottom: 20px;
+    max-width: 80px;
+    font-size: 10px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #3498db;
+    border-radius: 10px;
+  }
+
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.galeria img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
 }
